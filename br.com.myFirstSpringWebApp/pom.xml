@@ -8,8 +8,8 @@
 		<version>2.7.2</version>
 		<relativePath/> <!-- lookup parent from repository -->
 	</parent>
-	<groupId>br.com.foobar</groupId>
-	<artifactId>foo</artifactId>
+	<groupId>br.com.myFirstSpringWebApp</groupId>
+	<artifactId>myFirstSpringWebApp</artifactId>
 	<version>0.0.1-SNAPSHOT</version>
 	<name>bar</name>
 	<description>Demo project for Spring Boot</description>
