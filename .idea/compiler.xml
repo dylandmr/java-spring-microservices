@@ -6,14 +6,18 @@
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
-        <module name="firstSpringWebApp" />
-        <module name="br.com.myFirstSpringWebApp" />
+        <module name="br.com.SpringRestApi" />
+        <module name="SpringRestApi" />
       </profile>
     </annotationProcessing>
+    <bytecodeTargetLevel>
+      <module name="firstSpringWebApp" target="17" />
+    </bytecodeTargetLevel>
   </component>
   <component name="JavacSettings">
     <option name="ADDITIONAL_OPTIONS_OVERRIDE">
-      <module name="br.com.myFirstSpringWebApp" options="-parameters" />
+      <module name="SpringRestApi" options="-parameters" />
+      <module name="br.com.SpringRestApi" options="-parameters" />
       <module name="firstSpringWebApp" options="-parameters" />
     </option>
   </component>

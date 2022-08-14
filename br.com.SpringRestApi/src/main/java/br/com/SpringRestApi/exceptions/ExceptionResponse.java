@@ -1,4 +1,4 @@
-package br.com.myFirstSpringWebApp.exceptions;
+package br.com.SpringRestApi.exceptions;
 
 import java.io.Serializable;
 import java.util.Date;

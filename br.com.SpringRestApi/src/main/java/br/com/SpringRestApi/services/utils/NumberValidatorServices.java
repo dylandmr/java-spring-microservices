@@ -1,15 +1,17 @@
-package br.com.myFirstSpringWebApp.calculator.utils;
+package br.com.SpringRestApi.services.utils;
 
-import br.com.myFirstSpringWebApp.exceptions.UnsupportedMathOperationException;
+import br.com.SpringRestApi.exceptions.UnsupportedMathOperationException;
+import org.springframework.stereotype.Service;
 
-public class NumberValidator {
-    public static void validateInput(String... numbers) {
+@Service
+public class NumberValidatorServices {
+    public void validateInput(String... numbers) {
         for (var number : numbers)
             if (isNotNumeric(number) || isNotNumeric(number))
                 throw new UnsupportedMathOperationException("Please input a valid numeric value.");
     }
 
-    public static boolean isNotNumeric(String number) {
+    public boolean isNotNumeric(String number) {
         if (number == null)
             return true;
 

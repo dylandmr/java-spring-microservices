@@ -1,4 +1,4 @@
-package br.com.myFirstSpringWebApp;
+package br.com.SpringRestApi.models;
 
 public class Greeting {
     private final long id;

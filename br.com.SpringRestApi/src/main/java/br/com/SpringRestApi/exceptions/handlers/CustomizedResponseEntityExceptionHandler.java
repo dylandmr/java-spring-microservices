@@ -1,7 +1,7 @@
-package br.com.myFirstSpringWebApp.exceptions.handlers;
+package br.com.SpringRestApi.exceptions.handlers;
 
-import br.com.myFirstSpringWebApp.exceptions.ExceptionResponse;
-import br.com.myFirstSpringWebApp.exceptions.UnsupportedMathOperationException;
+import br.com.SpringRestApi.exceptions.ExceptionResponse;
+import br.com.SpringRestApi.exceptions.UnsupportedMathOperationException;
 import org.springframework.http.HttpStatus;
 import org.springframework.http.ResponseEntity;
 import org.springframework.web.bind.annotation.ControllerAdvice;

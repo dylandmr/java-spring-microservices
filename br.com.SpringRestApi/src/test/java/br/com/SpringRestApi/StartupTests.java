@@ -1,4 +1,4 @@
-package br.com.myFirstSpringWebApp;
+package br.com.SpringRestApi;
 
 import org.junit.jupiter.api.Test;
 import org.springframework.boot.test.context.SpringBootTest;

@@ -1,12 +1,16 @@
-package br.com.myFirstSpringWebApp.controllers;
+package br.com.SpringRestApi.controllers;
 
-import br.com.myFirstSpringWebApp.calculator.CalculatorService;
-import br.com.myFirstSpringWebApp.exceptions.UnsupportedMathOperationException;
+import br.com.SpringRestApi.services.CalculatorServices;
+import br.com.SpringRestApi.exceptions.UnsupportedMathOperationException;
 import org.springframework.web.bind.annotation.*;
 
 @RestController
 public class CalculatorController {
-    CalculatorService calculatorService = new CalculatorService();
+    private CalculatorServices calculatorService;
+
+    public CalculatorController(CalculatorServices calculatorService) {
+        this.calculatorService = calculatorService;
+    }
 
     @RequestMapping(value="/sum/{firstNumber}/{secondNumber}", method = RequestMethod.GET)
     public Double sum(@PathVariable(value="firstNumber") String firstNumber,
