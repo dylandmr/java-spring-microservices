@@ -24,3 +24,5 @@ hs_err_pid*
 
 #Maven build folder
 target
+
+.DS_Store
