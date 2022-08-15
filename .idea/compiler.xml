@@ -7,6 +7,8 @@
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
         <module name="br.com.SpringRestApi" />
+        <module name="config-server" />
+        <module name="greeting-service" />
         <module name="SpringRestApi" />
       </profile>
     </annotationProcessing>
@@ -18,7 +20,9 @@
     <option name="ADDITIONAL_OPTIONS_OVERRIDE">
       <module name="SpringRestApi" options="-parameters" />
       <module name="br.com.SpringRestApi" options="-parameters" />
+      <module name="config-server" options="-parameters" />
       <module name="firstSpringWebApp" options="-parameters" />
+      <module name="greeting-service" options="-parameters" />
     </option>
   </component>
 </project>
