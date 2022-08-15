@@ -7,5 +7,5 @@ management:
       exposure:
         include: "*"
 greeting-service:
-  greeting: "Hello"
+  greeting: "New-hello"
   default-value: "MacBook"
