@@ -10,6 +10,8 @@
         <module name="config-server" />
         <module name="greeting-service" />
         <module name="SpringRestApi" />
+        <module name="book-service" />
+        <module name="cambio-service" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
@@ -19,7 +21,9 @@
   <component name="JavacSettings">
     <option name="ADDITIONAL_OPTIONS_OVERRIDE">
       <module name="SpringRestApi" options="-parameters" />
+      <module name="book-service" options="-parameters" />
       <module name="br.com.SpringRestApi" options="-parameters" />
+      <module name="cambio-service" options="-parameters" />
       <module name="config-server" options="-parameters" />
       <module name="firstSpringWebApp" options="-parameters" />
       <module name="greeting-service" options="-parameters" />

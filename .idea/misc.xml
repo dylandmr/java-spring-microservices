@@ -7,6 +7,8 @@
         <option value="$PROJECT_DIR$/br.com.SpringRestApi/pom.xml" />
         <option value="$PROJECT_DIR$/greeting-service/pom.xml" />
         <option value="$PROJECT_DIR$/config-server/pom.xml" />
+        <option value="$PROJECT_DIR$/cambio-service/pom.xml" />
+        <option value="$PROJECT_DIR$/book-service/pom.xml" />
       </list>
     </option>
   </component>
