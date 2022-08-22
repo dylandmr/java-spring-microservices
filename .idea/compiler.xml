@@ -12,6 +12,7 @@
         <module name="SpringRestApi" />
         <module name="book-service" />
         <module name="cambio-service" />
+        <module name="naming-server" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
@@ -27,6 +28,7 @@
       <module name="config-server" options="-parameters" />
       <module name="firstSpringWebApp" options="-parameters" />
       <module name="greeting-service" options="-parameters" />
+      <module name="naming-server" options="-parameters" />
     </option>
   </component>
 </project>

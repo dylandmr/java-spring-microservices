@@ -32,7 +32,7 @@ public class BookController {
             var cambioResponse = cambioProxy.getCambio(book.getPrice(), "USD", currency);
             var currentPort = environment.getProperty("local.server.port");
 
-            book.setEnvironment(currentPort + " feign");
+            book.setEnvironment("Book port = %s - Cambio port = %s".formatted(currentPort, cambioResponse.getEnvironment()));
             book.setPrice(cambioResponse.getConvertedValue());
 
             return book;
