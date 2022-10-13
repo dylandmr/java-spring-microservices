@@ -11,6 +11,7 @@
         <module name="greeting-service" />
         <module name="SpringRestApi" />
         <module name="book-service" />
+        <module name="api-gateway" />
         <module name="cambio-service" />
         <module name="naming-server" />
       </profile>
@@ -22,6 +23,7 @@
   <component name="JavacSettings">
     <option name="ADDITIONAL_OPTIONS_OVERRIDE">
       <module name="SpringRestApi" options="-parameters" />
+      <module name="api-gateway" options="-parameters" />
       <module name="book-service" options="-parameters" />
       <module name="br.com.SpringRestApi" options="-parameters" />
       <module name="cambio-service" options="-parameters" />
