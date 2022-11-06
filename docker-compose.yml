@@ -83,7 +83,7 @@ services:
       - spring-microservices-docker-network
 
   cambio-service:
-    image: dylandmr/cambio-servide
+    image: dylandmr/cambio-service
     restart: always
     build:
       context: .
@@ -111,7 +111,7 @@ services:
       - spring-microservices-docker-network
 
   book-service:
-    image: dylandmr/book-servide
+    image: dylandmr/book-service
     restart: always
     build:
       context: .
