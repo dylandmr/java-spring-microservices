@@ -7,17 +7,16 @@
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
         <module name="br.com.SpringRestApi" />
-        <module name="config-server" />
-        <module name="greeting-service" />
-        <module name="SpringRestApi" />
-        <module name="book-service" />
         <module name="api-gateway" />
+        <module name="book-service" />
         <module name="cambio-service" />
         <module name="naming-server" />
       </profile>
     </annotationProcessing>
-    <bytecodeTargetLevel>
-      <module name="firstSpringWebApp" target="17" />
+    <bytecodeTargetLevel target="11">
+      <module name="config-server" target="17" />
+      <module name="greeting-service" target="17" />
+      <module name="SpringRestApi" target="17" />
     </bytecodeTargetLevel>
   </component>
   <component name="JavacSettings">
@@ -25,10 +24,8 @@
       <module name="SpringRestApi" options="-parameters" />
       <module name="api-gateway" options="-parameters" />
       <module name="book-service" options="-parameters" />
-      <module name="br.com.SpringRestApi" options="-parameters" />
       <module name="cambio-service" options="-parameters" />
       <module name="config-server" options="-parameters" />
-      <module name="firstSpringWebApp" options="-parameters" />
       <module name="greeting-service" options="-parameters" />
       <module name="naming-server" options="-parameters" />
     </option>

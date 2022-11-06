@@ -46,3 +46,10 @@ spring:
     schemas: book_service
     user: root
     password: Modrigues@0511
+springdoc:
+  api-docs:
+    path: book-service/v3/api-docs
+  show-actuator: true
+  swagger-ui:
+    url: /book-service/v3/api-docs
+    config-url: /book-service/v3/api-docs/swagger-config
