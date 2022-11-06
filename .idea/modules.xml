@@ -2,6 +2,10 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
+      <module fileurl="file://$PROJECT_DIR$/br.com.SpringRestApi/SpringRestApi.iml" filepath="$PROJECT_DIR$/br.com.SpringRestApi/SpringRestApi.iml" />
+      <module fileurl="file://$PROJECT_DIR$/config-server/config-server.iml" filepath="$PROJECT_DIR$/config-server/config-server.iml" />
+      <module fileurl="file://$PROJECT_DIR$/docker-webapp-demo/docker-webapp-demo.iml" filepath="$PROJECT_DIR$/docker-webapp-demo/docker-webapp-demo.iml" />
+      <module fileurl="file://$PROJECT_DIR$/greeting-service/greeting-service.iml" filepath="$PROJECT_DIR$/greeting-service/greeting-service.iml" />
       <module fileurl="file://$PROJECT_DIR$/java-spring-microservices.iml" filepath="$PROJECT_DIR$/java-spring-microservices.iml" />
     </modules>
   </component>
