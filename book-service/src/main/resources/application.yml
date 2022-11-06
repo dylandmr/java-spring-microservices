@@ -4,8 +4,8 @@ eureka:
   client:
     service-url:
       defaultZone: http://localhost:8761/eureka
-  instance:
-    hostname: localhost
+  #instance:
+    #hostname: localhost
 resilience4j:
   bulkhead:
     instances:
@@ -46,6 +46,9 @@ spring:
     schemas: book_service
     user: root
     password: Modrigues@0511
+  sleuth:
+    sampler:
+      probability: 1.0
 springdoc:
   api-docs:
     path: book-service/v3/api-docs
